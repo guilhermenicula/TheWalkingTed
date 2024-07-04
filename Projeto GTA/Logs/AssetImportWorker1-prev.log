@@ -1,0 +1,838 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.21f1 (bf09ca542b87) revision 12519882'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'pt' Physical Memory: 16273 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Ryzen 5/Downloads/Projeto GTA/Projeto GTA
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+56542
+Successfully changed project path to: C:/Users/Ryzen 5/Downloads/Projeto GTA/Projeto GTA
+C:/Users/Ryzen 5/Downloads/Projeto GTA/Projeto GTA
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [6840] Host "[IP] 192.168.100.36 [Port] 0 [Flags] 2 [Guid] 2268292255 [EditorId] 2268292255 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-AKSC985) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [6840] Host "[IP] 192.168.100.36 [Port] 0 [Flags] 2 [Guid] 2268292255 [EditorId] 2268292255 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-AKSC985) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 6.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.21f1 (bf09ca542b87)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Ryzen 5/Downloads/Projeto GTA/Projeto GTA/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12115 MB
+    Driver:   31.0.15.5212
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006366 seconds.
+- Loaded All Assemblies, in  0.310 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.279 seconds
+Domain Reload Profiling: 587ms
+	BeginReloadAssembly (90ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (125ms)
+		LoadAssemblies (88ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (124ms)
+			TypeCache.Refresh (122ms)
+				TypeCache.ScanAssembly (110ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (279ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (220ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (159ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.517 seconds
+Refreshing native plugins compatible for Editor in 2.58 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.494 seconds
+Domain Reload Profiling: 1009ms
+	BeginReloadAssembly (136ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (307ms)
+		LoadAssemblies (241ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (147ms)
+			TypeCache.Refresh (131ms)
+				TypeCache.ScanAssembly (120ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (494ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (367ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (282ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3102 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.1 KB). Loaded Objects now: 3565.
+Memory consumption went from 121.6 MB to 121.5 MB.
+Total: 2.586900 ms (FindLiveObjects: 0.226800 ms CreateObjectMapping: 0.081500 ms MarkObjects: 2.171300 ms  DeleteObjects: 0.105800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 78736.829692 seconds.
+  path: Assets/Viuletti City low poly/Materials/Buildings/Warehouse long roof.mat
+  artifactKey: Guid(6e06b7c14038a134786eaed1639cd6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Materials/Buildings/Warehouse long roof.mat using Guid(6e06b7c14038a134786eaed1639cd6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ec680c6158e43faaf6a83c84eb7399') in 0.102676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Viuletti City low poly/Materials/Buildings/Round building warning light.mat
+  artifactKey: Guid(a54f12944324baa40a486e70b26c3a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Materials/Buildings/Round building warning light.mat using Guid(a54f12944324baa40a486e70b26c3a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8898f9d97a29ba3901b38687ffdc19e4') in 0.014870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Viuletti City low poly/Models/Nature/Rock flat.fbx
+  artifactKey: Guid(da2bc031e35961f4a9befcfbc8fafee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Models/Nature/Rock flat.fbx using Guid(da2bc031e35961f4a9befcfbc8fafee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c3fc8a5a4add993ee1a035203c020ac') in 0.037072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Viuletti City low poly/Materials/Buildings/Glass building roof.mat
+  artifactKey: Guid(bbf4a8de8bcf91045b7ddc407c063c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Materials/Buildings/Glass building roof.mat using Guid(bbf4a8de8bcf91045b7ddc407c063c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd43732c3959b2d72962b6a2d1861590') in 0.012237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Viuletti City low poly/Materials/Buildings/Shop walls.mat
+  artifactKey: Guid(c47a9783fd56eac4b95a9fc787e3a164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Materials/Buildings/Shop walls.mat using Guid(c47a9783fd56eac4b95a9fc787e3a164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e2188052fd8e146c426beba55a4121') in 0.012059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Viuletti City low poly/Materials/Buildings/Store stairs.mat
+  artifactKey: Guid(a2b4638ccf65ad84abc5e72a80b4866e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Materials/Buildings/Store stairs.mat using Guid(a2b4638ccf65ad84abc5e72a80b4866e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f50f64ddf58baa49ecc8d75fbdf6cb7') in 0.012381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Viuletti City low poly/Materials/Buildings/Glass building window frame.mat
+  artifactKey: Guid(16b1acb8f003970469c1975148bd2b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Materials/Buildings/Glass building window frame.mat using Guid(16b1acb8f003970469c1975148bd2b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff0b4428dcbf021466b42b456d2f6d1') in 0.012206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Viuletti City low poly/Models/Buildings/Store.fbx
+  artifactKey: Guid(7f28847801426794dbdb6eba4fa66cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Models/Buildings/Store.fbx using Guid(7f28847801426794dbdb6eba4fa66cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '516ec102edddfd430d91c55fe0afa1b2') in 0.062986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Viuletti City low poly/Materials/Buildings/Glass building ground.mat
+  artifactKey: Guid(c75a37e1036288a4ab2677e99bf925a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Materials/Buildings/Glass building ground.mat using Guid(c75a37e1036288a4ab2677e99bf925a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a9fa0183f2f01a5ae9d5b5309c4c0a') in 0.015018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Viuletti City low poly/Materials/Buildings/Shop box.mat
+  artifactKey: Guid(0daa843c8d8194f439d87ad79961fd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Materials/Buildings/Shop box.mat using Guid(0daa843c8d8194f439d87ad79961fd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c994ca3617ccc5cbf59e1dc602e0d25a') in 0.012105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Viuletti City low poly/Materials/Buildings/Store door frame.mat
+  artifactKey: Guid(9498332feb14af04fb9393141fb0bfc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Materials/Buildings/Store door frame.mat using Guid(9498332feb14af04fb9393141fb0bfc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6106141177d48389b1c7987279f5cee') in 0.010946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Viuletti City low poly/Models/Buildings/Warehouse long.fbx
+  artifactKey: Guid(dc5697a1a809b5841b8e68181d3c0423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Models/Buildings/Warehouse long.fbx using Guid(dc5697a1a809b5841b8e68181d3c0423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22214e19a3ecb14ff60ebd650d0d0513') in 0.040373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Viuletti City low poly/Models/Buildings/High building 2.fbx
+  artifactKey: Guid(1b9a1d1146c2ba84c98a594645ccfef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Models/Buildings/High building 2.fbx using Guid(1b9a1d1146c2ba84c98a594645ccfef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcdc0be4c3d0bcf2f9057f800c08f275') in 0.034107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Viuletti City low poly/Materials/Buildings/Round building ground.mat
+  artifactKey: Guid(81701907e32d62041a09575248173261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Materials/Buildings/Round building ground.mat using Guid(81701907e32d62041a09575248173261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '907fd5d0b94b057a57ff7dd884d75286') in 0.011236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Viuletti City low poly/Materials/Buildings/Bank walls.mat
+  artifactKey: Guid(d12e0c50face88e41a49d4b1478b5dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Materials/Buildings/Bank walls.mat using Guid(d12e0c50face88e41a49d4b1478b5dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10cfbfc222789eae242105456c067432') in 0.011231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Viuletti City low poly/Models/Nature/Pond.fbx
+  artifactKey: Guid(3fe587feac8fa174eb845589023ea402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Models/Nature/Pond.fbx using Guid(3fe587feac8fa174eb845589023ea402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '297a424103479557744835ebbe62dbc7') in 0.015433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Viuletti City low poly/Materials/Buildings/Shop window.mat
+  artifactKey: Guid(c6270f2994586b44584685657cf29a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Materials/Buildings/Shop window.mat using Guid(c6270f2994586b44584685657cf29a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2374b62ca967536dde5b2cafbbb87f5c') in 0.011114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Viuletti City low poly/Materials/Buildings/Shop door.mat
+  artifactKey: Guid(58997a3e844bd02428d8d6f91b497062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Materials/Buildings/Shop door.mat using Guid(58997a3e844bd02428d8d6f91b497062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7205dec9244aaf3949b522f5ef9175f2') in 0.010877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Viuletti City low poly/Materials/Buildings/Warehouse long building.mat
+  artifactKey: Guid(a5eebb9eef8abc146a412bbb9a32ecf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Materials/Buildings/Warehouse long building.mat using Guid(a5eebb9eef8abc146a412bbb9a32ecf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe277936c1e128a3109872f158eec10') in 0.010597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Viuletti City low poly/Materials/Nature/Rock light.mat
+  artifactKey: Guid(f4287078d658ff6438065df5e02ff5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Materials/Nature/Rock light.mat using Guid(f4287078d658ff6438065df5e02ff5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1dc1e66807dd09b305b4754b08ff99') in 0.011127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Viuletti City low poly/Models/Nature/Tree oak.fbx
+  artifactKey: Guid(2ed887472c7eafa429f2abedc1b60e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Models/Nature/Tree oak.fbx using Guid(2ed887472c7eafa429f2abedc1b60e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb2f5f96dd94f04110435e1530e0c3f') in 0.021622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Viuletti City low poly/Materials/Buildings/Glass building vent roof.mat
+  artifactKey: Guid(85240914f096068489449be5b2e9c394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Materials/Buildings/Glass building vent roof.mat using Guid(85240914f096068489449be5b2e9c394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2fbf2a96558fd18de2d5cc8de63f2bf') in 0.011435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Viuletti City low poly/Models/Buildings/High building.fbx
+  artifactKey: Guid(e766523a067ed0d4f9030b8b18738776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Models/Buildings/High building.fbx using Guid(e766523a067ed0d4f9030b8b18738776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb3e4611af79d4c925fc05da7329124e') in 0.053835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Viuletti City low poly/Materials/Buildings/Office windows.mat
+  artifactKey: Guid(f648e5df3efd61c46a1a3c337b7c79be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Materials/Buildings/Office windows.mat using Guid(f648e5df3efd61c46a1a3c337b7c79be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '400156b7f3186355bd72fa525e62537e') in 0.011900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Viuletti City low poly/Materials/Buildings/Outside storage container.mat
+  artifactKey: Guid(87096ac8b583d7f4c81c4ff03e3377e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Materials/Buildings/Outside storage container.mat using Guid(87096ac8b583d7f4c81c4ff03e3377e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2257fe865c138441ed3277f38fce462c') in 0.012908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Viuletti City low poly/Materials/Nature/Water.mat
+  artifactKey: Guid(038a0c54c04c13446be9ec73a316158d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Materials/Nature/Water.mat using Guid(038a0c54c04c13446be9ec73a316158d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a8d107309d294491a2d35a16968f703') in 0.012644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Viuletti City low poly/Materials/Buildings/Round building wall even.mat
+  artifactKey: Guid(f50ff5f7ad0374445acee1b76784d879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Materials/Buildings/Round building wall even.mat using Guid(f50ff5f7ad0374445acee1b76784d879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b4b2b0319dad47e7b251357a6736c9') in 0.012240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Viuletti City low poly/Materials/Buildings/Store window frame.mat
+  artifactKey: Guid(3dd0f3ac00a58d74885dc9a8164b38eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Materials/Buildings/Store window frame.mat using Guid(3dd0f3ac00a58d74885dc9a8164b38eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0383a4b5a8e09bcedc724450908e6cb') in 0.012034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Viuletti City low poly/Materials/Buildings/High building door.mat
+  artifactKey: Guid(e35614bb259bb92418d8e0358117ebf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Materials/Buildings/High building door.mat using Guid(e35614bb259bb92418d8e0358117ebf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0235f65303d349f0a08f75ec3d0a685') in 0.012501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Viuletti City low poly/Materials/Buildings/Store vent.mat
+  artifactKey: Guid(ad513924b4029e844a08ead5c82fe5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Materials/Buildings/Store vent.mat using Guid(ad513924b4029e844a08ead5c82fe5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d2be29871a1f1fdba7d6b8004d9f956') in 0.011115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Viuletti City low poly/Models/Nature/Tree spruce small.fbx
+  artifactKey: Guid(5852e3d9b75e2a34babe6d91ddec8b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Models/Nature/Tree spruce small.fbx using Guid(5852e3d9b75e2a34babe6d91ddec8b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27aa420353b5593a49413849c1470fe7') in 0.019547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Viuletti City low poly/Materials/Nature/Ground dark.mat
+  artifactKey: Guid(4613d060b3f626e4488e7578612e5f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Materials/Nature/Ground dark.mat using Guid(4613d060b3f626e4488e7578612e5f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9013dafa84be428c7cd64c16994c92') in 0.012921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Viuletti City low poly/Materials/Nature/Rock grey.mat
+  artifactKey: Guid(8cb707f403b07264db181b7858cfff2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Materials/Nature/Rock grey.mat using Guid(8cb707f403b07264db181b7858cfff2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b6dcb183af9e373f6de41ecd4ebb387') in 0.010694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Viuletti City low poly/Materials/Buildings/Bank window.mat
+  artifactKey: Guid(60403bf50a2cfeb49865c99eac56929a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Materials/Buildings/Bank window.mat using Guid(60403bf50a2cfeb49865c99eac56929a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c15f5d5b439be5314bed524fec9287') in 0.011040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Viuletti City low poly/Models/Buildings/Glass building.fbx
+  artifactKey: Guid(f7227eae54e4e7a42a93c459a6f492d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Models/Buildings/Glass building.fbx using Guid(f7227eae54e4e7a42a93c459a6f492d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd38f7fba187d5ef5ccad3d66cd9d33') in 0.040140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Viuletti City low poly/Materials/Buildings/Bank entrance pillars.mat
+  artifactKey: Guid(b07e62283b01d9547ba0df44cc170de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Materials/Buildings/Bank entrance pillars.mat using Guid(b07e62283b01d9547ba0df44cc170de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2874bc3943e730d529ef742108dd83d7') in 0.011602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Viuletti City low poly/Materials/Buildings/Store bush pot.mat
+  artifactKey: Guid(5304edbb1507e6c47abc0958f0056de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Materials/Buildings/Store bush pot.mat using Guid(5304edbb1507e6c47abc0958f0056de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb4c877845b6f0396ad33fba2850641b') in 0.011655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Viuletti City low poly/Materials/Buildings/Store bush bark.mat
+  artifactKey: Guid(5758e7dd085401342b60bd9f83307460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Materials/Buildings/Store bush bark.mat using Guid(5758e7dd085401342b60bd9f83307460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae44bc5d94b6963aa9eb91ab164fa66') in 0.010785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Viuletti City low poly/Materials/Buildings/Bank roof pipe.mat
+  artifactKey: Guid(79b71dc29392bd5488f474bfe1fd3f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Materials/Buildings/Bank roof pipe.mat using Guid(79b71dc29392bd5488f474bfe1fd3f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc3fe7c520869f5398c449fe0c39df7b') in 0.011090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Viuletti City low poly/Materials/Buildings/Building window frame.mat
+  artifactKey: Guid(5a525351382388d4a8bc037e709d8a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Materials/Buildings/Building window frame.mat using Guid(5a525351382388d4a8bc037e709d8a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1302618d94af16f10622582a037a0115') in 0.012134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Viuletti City low poly/Materials/Buildings/Shop shade odd.mat
+  artifactKey: Guid(08e31d5d0379f3143836895dafd75ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Materials/Buildings/Shop shade odd.mat using Guid(08e31d5d0379f3143836895dafd75ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb03a9300645ddc6252ea123f54e218c') in 0.010895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Viuletti City low poly/Materials/Buildings/Bank entrance sign.mat
+  artifactKey: Guid(4b3e6f982a86a204e9ff862e6ad8d8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Materials/Buildings/Bank entrance sign.mat using Guid(4b3e6f982a86a204e9ff862e6ad8d8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ffddc784cbbec069965d7c2aaa13c1') in 0.011976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Viuletti City low poly/Materials/Buildings/Glass building walls.mat
+  artifactKey: Guid(c132fd251b65df144b4c0512dfc53d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Materials/Buildings/Glass building walls.mat using Guid(c132fd251b65df144b4c0512dfc53d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a313f9e6c1b484bc4eec04db6b907f') in 0.013116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Viuletti City low poly/Materials/Buildings/Bank building.mat
+  artifactKey: Guid(eee06cc9261a6b940b0301e7d59bbeda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Materials/Buildings/Bank building.mat using Guid(eee06cc9261a6b940b0301e7d59bbeda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb07594805ec6c50b56d481cfcd97cc') in 0.019121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Viuletti City low poly/Models/Buildings/Small building.fbx
+  artifactKey: Guid(08020721d3403914cb7eb4fcf3a5dad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Models/Buildings/Small building.fbx using Guid(08020721d3403914cb7eb4fcf3a5dad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17aa042b61283c1709606baa1d45d10c') in 0.031587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Viuletti City low poly/Materials/Buildings/Store building.mat
+  artifactKey: Guid(d2d680081760a274dbb3e44d07df0835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Materials/Buildings/Store building.mat using Guid(d2d680081760a274dbb3e44d07df0835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a4580deba5d5b100db25ae88d41677') in 0.011142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Viuletti City low poly/Models/Nature/Empty ground clean.fbx
+  artifactKey: Guid(7decb8c0b6b53b443a60404984e3c804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Models/Nature/Empty ground clean.fbx using Guid(7decb8c0b6b53b443a60404984e3c804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '176915e0baa19be7646b60f5689cb9dd') in 0.016641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Viuletti City low poly/Models/Buildings/Outside storage.fbx
+  artifactKey: Guid(d8fae8e9712ff014b96d3711a65b15b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Models/Buildings/Outside storage.fbx using Guid(d8fae8e9712ff014b96d3711a65b15b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80608175578a7d2c97420ac6ca269bf9') in 0.028315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 1.499221 seconds.
+  path: Assets/Viuletti City low poly/Models/Roads/Height Road crossing.fbx
+  artifactKey: Guid(f52618d0451aaf248a6f940e54dd2ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Models/Roads/Height Road crossing.fbx using Guid(f52618d0451aaf248a6f940e54dd2ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79fca89eb8cb5d12920e62a3aa17b078') in 0.020745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Viuletti City low poly/Models/Roads/Height Road straight.fbx
+  artifactKey: Guid(161dbbb4309c9eb4081f7e6636fbf826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Models/Roads/Height Road straight.fbx using Guid(161dbbb4309c9eb4081f7e6636fbf826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98451db2c73d189a267b6908abefd6ed') in 0.019952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Viuletti City low poly/Models/Roads/Height Road T crossing.fbx
+  artifactKey: Guid(d7f4ffb7c4e5d04458f7fb8aa3a03ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Models/Roads/Height Road T crossing.fbx using Guid(d7f4ffb7c4e5d04458f7fb8aa3a03ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343cbf474fd0ad9f84cf516a78d2fdf9') in 0.029714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.356256 seconds.
+  path: Assets/Viuletti City low poly/Prefabs/Buildings/High building 2.prefab
+  artifactKey: Guid(16784d6fbb71942438b159522cd5d5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Prefabs/Buildings/High building 2.prefab using Guid(16784d6fbb71942438b159522cd5d5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03cda5f328955d2a7e62001b569ed297') in 0.022050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Viuletti City low poly/Prefabs/Buildings/Outside storage.prefab
+  artifactKey: Guid(89f0268b869809841b9a32b72053e107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Prefabs/Buildings/Outside storage.prefab using Guid(89f0268b869809841b9a32b72053e107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47828cff781edcbcb750e66d903f0f9b') in 0.020968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Viuletti City low poly/Prefabs/Buildings/Small building.prefab
+  artifactKey: Guid(31d5af46872794c47831f7a6da72a909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Prefabs/Buildings/Small building.prefab using Guid(31d5af46872794c47831f7a6da72a909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f84dc672bc1dbff551565a570bd1be1') in 0.012654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Viuletti City low poly/Prefabs/Buildings/Store.prefab
+  artifactKey: Guid(df93f3d6378363547a6e517b28966afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Prefabs/Buildings/Store.prefab using Guid(df93f3d6378363547a6e517b28966afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac3c4a1cdcdbf100a573490295ee4046') in 0.018499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.366559 seconds.
+  path: Assets/Viuletti City low poly/Prefabs/Nature/Empty Grass big.prefab
+  artifactKey: Guid(2efaed936cd291e45a6f409ee39de261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Prefabs/Nature/Empty Grass big.prefab using Guid(2efaed936cd291e45a6f409ee39de261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffb8b05b9c4733816d1de98b76ee6deb') in 0.020520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Viuletti City low poly/Prefabs/Nature/Spruce.prefab
+  artifactKey: Guid(c0398b97943a5fd4f8bc102a121965b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Prefabs/Nature/Spruce.prefab using Guid(c0398b97943a5fd4f8bc102a121965b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fafe8390ff6062dd9d8730101791dc5') in 0.011590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Viuletti City low poly/Prefabs/Nature/Spruce small.prefab
+  artifactKey: Guid(7f549c3077c62d047af95a32ff793298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Prefabs/Nature/Spruce small.prefab using Guid(7f549c3077c62d047af95a32ff793298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '446580d8533e67bb00b6cf6d1fb3b82b') in 0.012200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Viuletti City low poly/Prefabs/Nature/Rock slide.prefab
+  artifactKey: Guid(863150854ac5540408a55fc45f32e317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Prefabs/Nature/Rock slide.prefab using Guid(863150854ac5540408a55fc45f32e317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64e72dafc32925f5a8dee85a7c6ec7a') in 0.010543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Viuletti City low poly/Prefabs/Nature/Rock big.prefab
+  artifactKey: Guid(47168710cae13564398951978cf51b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Prefabs/Nature/Rock big.prefab using Guid(47168710cae13564398951978cf51b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c62f49b8e23017011d40150b865dae0c') in 0.011504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Viuletti City low poly/Prefabs/Nature/Empty ground.prefab
+  artifactKey: Guid(0fae572718d091f4db8cde077bdf2d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Prefabs/Nature/Empty ground.prefab using Guid(0fae572718d091f4db8cde077bdf2d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '042f96f04efd2f5d8ca5df01d260bc74') in 0.012557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Viuletti City low poly/Prefabs/Nature/Empty ground clean.prefab
+  artifactKey: Guid(afe0d2a0809e369448dcd370bb738808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Prefabs/Nature/Empty ground clean.prefab using Guid(afe0d2a0809e369448dcd370bb738808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71181099d3e63fbfe7367458e02f932f') in 0.011907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.205104 seconds.
+  path: Assets/Viuletti City low poly/Prefabs/Roads/Crossing T.prefab
+  artifactKey: Guid(f133fe363b3d09e40b5bf2b268253326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Prefabs/Roads/Crossing T.prefab using Guid(f133fe363b3d09e40b5bf2b268253326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab17c985254f25c6582c1733266c6b4b') in 0.010939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Viuletti City low poly/Prefabs/Roads/Turn.prefab
+  artifactKey: Guid(f79ac4e821519164194463f7fa336938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Prefabs/Roads/Turn.prefab using Guid(f79ac4e821519164194463f7fa336938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db9eb7fbdf4fcadc14b869fafbf6ed9') in 0.011440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Viuletti City low poly/Prefabs/Roads/Road 4 tiles.prefab
+  artifactKey: Guid(8f7c1c3559fb0e845bf76101dd60df17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Prefabs/Roads/Road 4 tiles.prefab using Guid(8f7c1c3559fb0e845bf76101dd60df17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aacca79e2a32b3b3156b154c5cda3d4') in 0.011072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Viuletti City low poly/Prefabs/Roads/Road 8 tiles.prefab
+  artifactKey: Guid(9cbe114ded05b77408703dd681924e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Prefabs/Roads/Road 8 tiles.prefab using Guid(9cbe114ded05b77408703dd681924e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b893b48c070b909ca15a4efb11e400') in 0.022220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.361 seconds
+Refreshing native plugins compatible for Editor in 2.57 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.829 seconds
+Domain Reload Profiling: 1189ms
+	BeginReloadAssembly (135ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (164ms)
+		LoadAssemblies (224ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (830ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (402ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (315ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3094 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3612.
+Memory consumption went from 127.2 MB to 127.2 MB.
+Total: 2.767100 ms (FindLiveObjects: 0.325000 ms CreateObjectMapping: 0.083000 ms MarkObjects: 2.307300 ms  DeleteObjects: 0.050600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.355 seconds
+Refreshing native plugins compatible for Editor in 2.37 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.793 seconds
+Domain Reload Profiling: 1146ms
+	BeginReloadAssembly (137ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (155ms)
+		LoadAssemblies (217ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (793ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (376ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (289ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3095 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.2 KB). Loaded Objects now: 3615.
+Memory consumption went from 129.4 MB to 129.4 MB.
+Total: 2.256900 ms (FindLiveObjects: 0.210200 ms CreateObjectMapping: 0.078400 ms MarkObjects: 1.920700 ms  DeleteObjects: 0.046600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
