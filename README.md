@@ -13,13 +13,13 @@ The Walking TED é um game de ação e sobrevivência onde um ex escoteiro chama
 
 **Gameplay:**
 Vídeo demonstrativo de gameplay do jogo:
-- **Link: [https://youtu.be/y_3xp551iVw](https://youtu.be/Kl1k8gniJ3M](https://youtu.be/Kl1k8gniJ3M)**
+- **Link: https://youtu.be/Kl1k8gniJ3M**
 
 **Prints do jogo:**
   
 - **Menu do Jogo:**
   
-![zoobie](https://github.com/guilhermenicula/TheWalkingTed/assets/61329619/1bda61da-6510-4295-80cc-36a78d2fbf02)
+  ![Captura de tela 2024-07-04 192404](https://github.com/guilhermenicula/TheWalkingTed/assets/61329619/db6819cc-7c90-4bc8-b640-30e232cd968d)
 
 - **Print No centro da cidade a anoite:**
   
@@ -27,7 +27,7 @@ Vídeo demonstrativo de gameplay do jogo:
 
 - **Print na floresta:**
   
-![Captura de tela 2024-07-04 193651](https://github.com/guilhermenicula/TheWalkingTed/assets/61329619/7a62e38c-eba0-46c8-91a3-bb5be774f933)
+  ![Captura de tela 2024-07-04 193400](https://github.com/guilhermenicula/TheWalkingTed/assets/61329619/0f03a911-6cc7-4fdf-ab0e-b1b9025cd702)
 
 **Funcionalidades Desenvolvidas:**
 - **Correr**
