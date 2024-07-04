@@ -1,4 +1,4 @@
-## The Waling Ted
+## The Walking Ted
 
 **Descrição do Jogo:**
 
