@@ -13,7 +13,7 @@ The Walking TED é um game de ação e sobrevivência onde um ex escoteiro chama
 
 **Gameplay:**
 Vídeo demonstrativo de gameplay do jogo:
-- **Link: https://youtu.be/y_3xp551iVw](https://youtu.be/Kl1k8gniJ3M**
+- **Link: [https://youtu.be/y_3xp551iVw](https://youtu.be/Kl1k8gniJ3M](https://youtu.be/Kl1k8gniJ3M)**
 
 **Prints do jogo:**
   
